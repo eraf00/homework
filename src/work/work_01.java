@@ -1,6 +1,6 @@
 package work;
 
-public class ¾Å¾Å³Ë·¨±í {
+public class work_01 {
 
 	public static void main(String[] srgs) {
 	int a=1, b=1 ;

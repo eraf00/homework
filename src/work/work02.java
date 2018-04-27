@@ -1,13 +1,13 @@
 package work;
 import java.util.Scanner;
-
 public class work02 {
 	public static void main(String[] srgs) {
 		for(;;) {
-		@SuppressWarnings("resource")
+			
 		Scanner input=new Scanner(System.in);
 		System.out.println("输入分数！");
-		float score=input.nextInt()/10;
+		input.close();
+		float score= input.nextInt()/10;
 		switch((int)score)
 		{
 		case 9:System.out.println("一个优秀的分数,你好棒啊.");break;
