@@ -1,14 +1,15 @@
 package work;
 import java.util.Scanner;
-public class work_02{
+public class work_02b{
 	public static void main(String[] srgs) {
-
-		Scanner input=new Scanner(System.in);
 		System.out.println(" ‰»Î–– ˝£°");
+		Scanner input=new Scanner(System.in);
+		int a=1, b=1, i=input.nextInt(),d=i;
 		input.close();
-		int a=1 , d ,i=(int)input.nextInt();
-		for(a=1;a<=i;a++) {
-					for(a=1;a<i;a++){System.out.print(" ");
-					for(d=i;d>1;d--){System.out.print("*");}}
-					System.out.println("");
-	}}}
+		for(a=1;a<=i;a++){
+		
+					for(b=0;b<i-a;b++){System.out.print(" ");}
+					for(d=1;d<=2*a-1;d++){System.out.print("*");}
+					System.out.println("");}
+					
+	}}
