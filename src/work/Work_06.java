@@ -1,6 +1,6 @@
 package work;
 
-public class work_06 {
+public class Work_06 {
 	public static void main(String[] args) {
 	int i=1;
 	do {

@@ -2,7 +2,7 @@ package work;
 
 import java.util.Scanner;
 
-public class work_03 {
+public class Work_03 {
 	public static void main(String[] srgs) {
 
 		Scanner input = new Scanner(System.in);

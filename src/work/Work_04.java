@@ -1,7 +1,7 @@
 package work;
 
 import java.util.Scanner;
-public class work_04 {
+public class Work_04 {
 public static void main(String[] srgs) {
 	System.out.println("ÊäÈëµ××Ö:");
 	Scanner input1=new Scanner(System.in);

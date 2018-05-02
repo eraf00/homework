@@ -1,6 +1,6 @@
 package work;
 
-public class work_05 {
+public class Work_05 {
 	public static void main(String[] args) {
 		int i=1;float sum=0;
 		do {

@@ -1,6 +1,6 @@
 package work;
 import java.util.Scanner;
-public class work_02a{
+public class Work_02a{
 	public static void main(String[] srgs) {
 		System.out.println("ÊäÈëĞĞÊı£¡");
 		Scanner input=new Scanner(System.in);
