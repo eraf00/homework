@@ -7,8 +7,9 @@ public class Work02 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("输入分数！");
 		float score = input.nextFloat();
-		int i=(int)score/10;
+		int i=(int)(score/10);
 		input.close();
+		if(score<=100) {
 		switch (i) {
 		case 10:
 			System.out.println("一个优秀的分数,你好棒啊.");
@@ -26,7 +27,8 @@ public class Work02 {
 			System.out.println("一个刚刚及格的分数，还需努力。");
 			break;
 		default:
-			System.out.println("这真是一个杯具。");
-		}
+			System.out.println("这真是一个杯具。");};}
+		
+		
 	}
 }
