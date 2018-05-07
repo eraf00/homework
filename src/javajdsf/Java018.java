@@ -4,6 +4,7 @@ public class Java018 {
 	public static void main(String[] srgs) {
 		
 		String[] yi= {"x","y","z"};
+		@SuppressWarnings("unused")
 		String a,b,c;
 	
 		for(int j=0;j<=2;j++) {
