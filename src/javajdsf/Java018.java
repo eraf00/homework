@@ -2,10 +2,9 @@ package javajdsf;
 
 public class Java018 {
 	public static void main(String[] srgs) {
-		int a=1,b=2,c=3;
-		int x,y,z;
-		int i=0;
-		for(;i<=3;i++) {
+		char[] A=new char[3];
+		char[] B=new char[3];
+		for(int i=0;i<=2;i++) {
 			
 		}
 }

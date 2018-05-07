@@ -13,6 +13,7 @@ public class Java022 {
 	private static int fac(int fn) {
 		if (fn==1)
 		return 1;
-		else fn=fn*fac(fn-1);
+		else 
+			return fn=fn*fac(fn-1);
 	}
 }
