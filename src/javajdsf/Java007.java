@@ -7,13 +7,14 @@ public class Java007 {
 		  public static void main(String[] args)
 		  {Scanner input = new Scanner(System.in);
 			System.out.println("输入分数！");
-			Scanner length=input;
+			Scanner lens=input;
 		    int len = args.length;  //获得命令行参数的个数
+		    input.close();
 		    if (len > 0)  //判断是否有命令行参数
 		    {
 		      //如果有，将其逐一打印到控制台
 		      System.out.println(len + "个命令行参数，具体如下：");
-		      for (int i = 0; i < args.length; i++)
+		      for (int i = 0; i <len; i++)
 		      {
 		        System.out.println(args[i]);
 		      }
