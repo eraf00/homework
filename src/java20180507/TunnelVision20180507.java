@@ -1,11 +1,11 @@
 package java20180507;
 //¾®µ×Ö®ÍÜ
-public class TunnelVision {
+public class TunnelVision20180507 {
 
 	static void main(String[] srgs) {
 int frog=0;//ÇàÍÜ
 int day=0;
-while(frog<=7) {
+while(true) {
 	frog+=3;
 	day++;
 	if(frog>=7) {
