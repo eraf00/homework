@@ -7,8 +7,8 @@ public class StudentShow {
 		student1.age=10;
 		student1.course="±à³ÌÓïÑÔ";
 		student1.interest="ÓÎÓ¾";
-		
 		student1.studentshow();
+		
 		System.out.println("\n");
 		Students teacher1 = new Students();
 		teacher1.name="°×êØ";
