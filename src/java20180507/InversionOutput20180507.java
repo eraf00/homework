@@ -11,15 +11,15 @@ public class InversionOutput20180507 {
 		int score = input.nextInt();
 		int rightwei = 1;
 		int score1 = score;
+		int rightweimax = rightwei;// 最高权位6
+		int right = 1;
+		input.close();
 		while (true) {
 			score /= 10;
 			if (score == 0)
 				break; // 6
 			rightwei++;
 		}
-		input.close();
-		int rightweimax = rightwei;// 最高权位6
-		int right = 1;
 		for (; rightwei > 1; rightwei--) {
 			right *= 10;
 		}
