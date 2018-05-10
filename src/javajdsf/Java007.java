@@ -1,4 +1,5 @@
 package javajdsf;
+
 //无法计算空格个数
 //无法实现对空格的判断啊
 import java.util.Scanner;
@@ -19,12 +20,13 @@ public class Java007 {
 			for (int i = 0; i < inputs.length(); i++) {
 				inputs.charAt(i);
 				if ((inputs.charAt(i) >= 'a' && inputs.charAt(i) <= 'z')
-						|| inputs.charAt(i) >= 'A' && inputs.charAt(i) <= 'Z') {
+						|| (inputs.charAt(i) >= 'A' && inputs.charAt(i) <= 'Z')) {
 					theletter++;
-				} else if (inputs.charAt(i) == ' ') {
-					space++;
 				} else if (inputs.charAt(i) >= '0' && inputs.charAt(i) <= '9') {
 					digital++;
+				} else if (inputs.charAt(i) == ' ') {
+					space++;
+
 				} else {
 					other++;
 				}
