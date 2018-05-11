@@ -1,4 +1,4 @@
-package work;
+package javaBasis;
 
 public class Work_06 {
 	public static void main(String[] args) {

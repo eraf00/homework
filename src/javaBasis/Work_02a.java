@@ -1,4 +1,4 @@
-package work;
+package javaBasis;
 import java.util.Scanner;
 public class Work_02a{
 	public static void main(String[] srgs) {
