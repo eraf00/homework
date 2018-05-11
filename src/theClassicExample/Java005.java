@@ -1,4 +1,4 @@
-package javajdsf;
+package theClassicExample;
 import java.util.Scanner;
 
 public class Java005 {

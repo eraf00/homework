@@ -1,4 +1,4 @@
-package javajdsf;
+package theClassicExample;
 
 public class Java021 {
 	public static void main(String[] srg) {

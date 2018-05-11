@@ -1,4 +1,4 @@
-package javajdsf;
+package theClassicExample;
 
 //无法计算空格个数
 //无法实现对空格的判断啊
