@@ -1,13 +1,13 @@
 package javaoop;
 
 //对时间进行操作
-public class MyTime {
+public class MyTimeTest {
 
 	public static void main(String[] args) {
-		MyTimeClass now = new MyTimeClass();
-		now.setHour(9);
-		now.setMin(9);
-		now.setSec(9);
-		now.display();
+		MyTime now = new MyTime(12, 30, 20);
+		for (int i = 1; i < 60; i++) {
+
+			now.display();
+		}
 	}
 }

@@ -1,8 +1,8 @@
 package javaoop;
 //²ÂÊı×ÖÓÎÏ·
-public class GuessingGame {
+public class GuessingGameTest {
 	public static void main(String[] args) {
-		GuessingGameClass a = new GuessingGameClass();
+		GuessingGame a = new GuessingGame();
 	    a.guess(100);
 	}
 }

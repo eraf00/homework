@@ -1,6 +1,6 @@
 package javaoop;
 
-public class GuessingGameClass {
+public class GuessingGame {
 	  private int v = 50;
 
 	  public void guess(int num) {

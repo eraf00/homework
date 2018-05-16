@@ -4,5 +4,43 @@ package javaoop;
  * 
  * */
 public class WebUsers {
+	private String ID;
+	private String password;
+	private String email;
+	WebUsers(String ID,String password){
+		this.ID=ID;
+	this.password=password;
+	this.email=ID+"@gameschool.com";
+	}
+		
+	
+WebUsers(String ID,String password,String email){
+	this.ID=ID;
+	this.password=password;
+	this.email=email;}
+void show() {
+	System.out.println("–’√˚£∫"+this.ID + "\n√‹¬Î£∫"+ this.password+"\nEmailµÿ÷∑£∫"+this.email+"\n");
+}
+
+//-------------------------------------------
+
+public String getID() {
+	return ID;
+}
+public void setID(String iD) {
+	this.ID = iD;
+}
+public String getPassword() {
+	return password;
+}
+public void setPassword(String password) {
+	this.password = password;
+}
+public String getEmail() {
+	return email;
+}
+public void setEmail(String email) {
+	this.email = email;
+}
 
 }
