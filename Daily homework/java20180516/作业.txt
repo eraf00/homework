@@ -36,10 +36,11 @@ boolean 1位；
 byte 8位；
 char 16位；
 short 16位；
-int 32位；
+int 32位； 
 long 64位；
 float 32位；
 double 64位；
+
 
 3.	简述重载和重写的区别。
 重载：
