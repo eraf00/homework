@@ -1,11 +1,14 @@
 package javaoop;
 
-public class Vehicles1 {
+public class Vehicles {
 	private String brand;
 	private String color;
 
 	void run() {
-		
+	      System.out.println("我已经开动了");
+	}
+	void showInfo(){
+		System.out.println("商标:"+brand+"\n颜色:"+color);
 	}
 
 	public String getBrand() {
