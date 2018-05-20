@@ -7,7 +7,7 @@ public class Box {
 		this.width = -1;
 		this.height = -1;
 		this.depth = -1;
-		System.out.println("I am aBox");
+		System.out.println("I am a Box");
 	}
 
 	Box(float width, float height, float depth) {
@@ -40,5 +40,4 @@ public class Box {
 	public void setDepth(float depth) {
 		this.depth = depth;
 	}
-
 }
