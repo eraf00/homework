@@ -9,7 +9,7 @@ public class Java007 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("ÊäÈë×Ö·û:");
-		String inputs = input.next();
+		String inputs = input.nextLine();
 		input.close();
 		System.out.println(inputs);// ´òÓ¡Õâ´®×Ö·û
 		int theletter = 0;
@@ -18,7 +18,8 @@ public class Java007 {
 		int other = 0;
 		if (inputs.length() > 0) {
 			for (int i = 0; i < inputs.length(); i++) {
-				inputs.charAt(i);
+				/*
+				 * inputs.charAt(i);
 				if ((inputs.charAt(i) >= 'a' && inputs.charAt(i) <= 'z')
 						|| (inputs.charAt(i) >= 'A' && inputs.charAt(i) <= 'Z')) {
 					theletter++;
@@ -26,11 +27,14 @@ public class Java007 {
 					digital++;
 				} else if (inputs.charAt(i) == ' ') {
 					space++;
-
 				} else {
 					other++;
 				}
-
+				*/
+				if(Character.isDigit(inputs.charAt(i)))theletter++;
+				else if(Character.isLetter(inputs.charAt(i)))digital++;
+				else if(Character.isWhitespace(inputs.charAt(i)))space++;
+				else other++;
 			}
 
 			System.out.println("Ó¢ÎÄ×ÖÄ¸¸öÊý£º" + theletter);

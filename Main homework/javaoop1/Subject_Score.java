@@ -1,27 +1,27 @@
 package javaoop1;
 
 public class Subject_Score {
-	private String name;
+	private static String name;
 	private String classroom;
-	private String sub1, sub2, sub3, sub4;
-	private int s1, s2, s3, s4;
+	private static String sub1, sub2, sub3, sub4;
+	private float s1, s2, s3, s4;
 	private String review;
 
 	Subject_Score(String sub1, String sub2, String sub3, String sub4) {
-		this.sub1 = sub1;
-		this.sub2 = sub2;
-		this.sub3 = sub3;
-		this.sub4 = sub4;
+		Subject_Score.sub1 = sub1;
+		Subject_Score.sub2 = sub2;
+		Subject_Score.sub3 = sub3;
+		Subject_Score.sub4 = sub4;
 	}
 
-	Subject_Score(int s1, int s2, int s3, int s4) {
+	Subject_Score(float s1, float s2, float s3, float s4) {
 		this.s1 = s1;
 		this.s2 = s2;
 		this.s3 = s3;
 		this.s4 = s4;
 	}
 
-	int getSum() {
+	float getSum() {
 		return s1 + s2 + s3 + s4;
 	}
 
@@ -35,7 +35,7 @@ public class Subject_Score {
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		Subject_Score.name = name;
 	}
 
 	public String getClassroom() {
@@ -51,7 +51,7 @@ public class Subject_Score {
 	}
 
 	public void setSub1(String sub1) {
-		this.sub1 = sub1;
+		Subject_Score.sub1 = sub1;
 	}
 
 	public String getSub2() {
@@ -59,7 +59,7 @@ public class Subject_Score {
 	}
 
 	public void setSub2(String sub2) {
-		this.sub2 = sub2;
+		Subject_Score.sub2 = sub2;
 	}
 
 	public String getSub3() {
@@ -67,7 +67,7 @@ public class Subject_Score {
 	}
 
 	public void setSub3(String sub3) {
-		this.sub3 = sub3;
+		Subject_Score.sub3 = sub3;
 	}
 
 	public String getSub4() {
@@ -75,10 +75,10 @@ public class Subject_Score {
 	}
 
 	public void setSub4(String sub4) {
-		this.sub4 = sub4;
+		Subject_Score.sub4 = sub4;
 	}
 
-	public int getS1() {
+	public float getS1() {
 		return s1;
 	}
 
@@ -86,7 +86,7 @@ public class Subject_Score {
 		this.s1 = s1;
 	}
 
-	public int getS2() {
+	public float getS2() {
 		return s2;
 	}
 
@@ -94,7 +94,7 @@ public class Subject_Score {
 		this.s2 = s2;
 	}
 
-	public int getS3() {
+	public float getS3() {
 		return s3;
 	}
 
@@ -102,7 +102,7 @@ public class Subject_Score {
 		this.s3 = s3;
 	}
 
-	public int getS4() {
+	public float getS4() {
 		return s4;
 	}
 
